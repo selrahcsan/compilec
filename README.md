@@ -1,17 +1,51 @@
 # CompileC
 
-Este script Python permite compilar arquivos `.c` usando o GCC. O script recebe o arquivo `.c` como argumento e gera um arquivo executável com o mesmo nome (sem a extensão `.c`).
+Este script Python permite compilar arquivos `.c` usando o GCC em Distribuições Linux Baseadas no 
+Debian/Ubuntu. O script recebe o arquivo `.c` como argumento e gera um arquivo executável com o mesmo nome (sem a extensão `.c`).
 
 ## Pré-requisitos
 
 - Python 3
 - GCC (GNU Compiler Collection)
+- GIT
+
+## Instalando as dependências 
+
+```bash
+  sudo apt install gcc git
+```
+
+## Download 
+
+```bash
+  git clone https://github.com/selrahcsan/compilec
+```
+
+## Instalação
+    
+Execute com poderes de administrador
+
+```bash
+  sudo ./install.sh
+```
 
 ## Como usar
 
-1. Salve o script Python em um arquivo chamado `programa.py`.
-2. Certifique-se de que o GCC está instalado no seu sistema. Se você estiver em um sistema Linux, você pode instalá-lo com o comando:
+No seu diretório de trabalho, no terminal, execute o complic, usando como parametro o nome do programa.c
 
-   ```bash
-   sudo apt install gcc  # Ou o gerenciador de pacotes da sua distribuição
-   ```
+ex.:
+
+```bash
+  compilec meuPrograma.c
+  ./meuPrograma   #executando
+```
+
+
+
+## Removendo 
+
+```bash
+  ./remove.sh
+```
+
+
