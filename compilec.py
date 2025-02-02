@@ -30,4 +30,5 @@ if __name__ == "__main__":
         print(f"Erro: Arquivo não encontrado: {arquivo_c}")
         sys.exit(1)
 
-    compilar_arquivo_c(arquivo_c)
+
+compilar_arquivo_c(arquivo_c)
