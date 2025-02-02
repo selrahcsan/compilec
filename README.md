@@ -3,6 +3,10 @@
 Este script Python permite compilar arquivos `.c` usando o GCC em Distribuições Linux Baseadas no 
 Debian/Ubuntu. O script recebe o arquivo `.c` como argumento e gera um arquivo executável com o mesmo nome (sem a extensão `.c`).
 
+## Atenção:
+
+Este projeto serve para fins acadêmicos básicos de compilação em C no Linux, pois não apresenta muitas flags de otimização de códigos em C
+
 ## Pré-requisitos
 
 - Python 3
@@ -23,9 +27,10 @@ Debian/Ubuntu. O script recebe o arquivo `.c` como argumento e gera um arquivo e
 
 ## Instalação
     
-Execute com poderes de administrador
+Acesse a pasta clonada com o git e execute no terminal 
 
 ```bash
+  cd compilec
   sudo ./install.sh
 ```
 
@@ -37,12 +42,12 @@ ex.:
 
 ```bash
   compilec meuPrograma.c
-  ./meuPrograma   #executando
+  ./meuPrograma   #executando o programa compilado
 ```
 
-
-
 ## Removendo 
+
+Acesse a pasta clonada com o git e execute no terminal 
 
 ```bash
   ./remove.sh
